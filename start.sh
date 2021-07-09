@@ -6,7 +6,7 @@ fi
 
 if [[ -n $BOT_TOKEN && -n $OWNER_ID ]]; then
 	echo "Bot token and owner ID detected"
-	python3 config.py
+	./alive.sh; python3 config.py
 fi
 
 if [[ -n $CREDENTIALS_LINK ]]; then
