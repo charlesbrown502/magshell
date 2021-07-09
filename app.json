@@ -21,7 +21,7 @@
       },
       "APP_LINK": {
         "description": "Fill this with this heroku app URL to prevent sleeping",
-        "required": true
+        "required": true,
         "value": "https://appname.herokuapp.com"
       },
       "RCLONE_CONFIG_BASE64": {
