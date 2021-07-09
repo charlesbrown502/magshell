@@ -65,6 +65,9 @@ RUN gem install rmega
 # Copies config(if it exists)
 COPY . .
 
+# Install heroku-cli :v
+RUN npm install -g heroku
+
 # Install requirements and start the bot
 RUN npm install
 
