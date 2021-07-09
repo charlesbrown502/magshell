@@ -19,6 +19,11 @@
         "description": "Your telegram ID (not username)",
         "required": true
       },
+      "APP_LINK": {
+        "description": "Fill this with this heroku app URL to prevent sleeping",
+        "required": true
+        "value": "https://appname.herokuapp.com"
+      },
       "RCLONE_CONFIG_BASE64": {
         "description": "Your Rclone config encoded using Base64",
         "required": false
