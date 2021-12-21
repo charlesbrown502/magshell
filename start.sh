@@ -6,7 +6,7 @@ fi
 
 if [[ -n $BOT_TOKEN && -n $OWNER_ID ]]; then
 	echo "Bot token and owner ID detected"
-	./alive.sh; python3 config.py
+	python3 config.py
 fi
 
 if [[ -n $CREDENTIALS_LINK ]]; then
@@ -21,4 +21,4 @@ fi
 
 echo "SETUP COMPLETED"
 
-node server
+bash alive.sh & node server
